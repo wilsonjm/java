@@ -1,0 +1,10 @@
+{
+  "name": "Java",
+  "author": "Jason",
+  "version": "0.0.2",
+  "source": "https://github.com/wilsonjm/LightTable/Java",
+  "desc": "Java language plugin for Light Table",
+  "dependancies": {
+  },
+  "behaviors": "java.behaviors"
+}
