@@ -1,4 +1,4 @@
-{:+ {:app [(:lt.objs.plugins/load-js ["codemirror/clike.js" "java_compiled.js"])]
+{:+ {:app [(:lt.objs.plugins/load-js ["codemirror/clike.js"])]
      :editor.java [:lt.plugins.java/eval-on-save :lt.plugins.java/on-eval (:lt.objs.editor/tab-settings false 4 4)]
      :files [(:lt.objs.files/file-types [{:name "JAVA" :exts [:java] :mime "text/x-java" :tags [:editor.java]}])]
      :java.lang [:lt.plugins.java/eval!]}}
